@@ -23,7 +23,6 @@ This project (NFT preview card component), designed to make users able to View t
 - Solution URL: [https://github.com/Iman-mohammad/nft-preview-card.github.io.git](https://your-solution-url.com)
 - Live Site URL: [https://iman-mohammad.github.io/nft-preview-card.github.io/](https://your-live-site-url.com)
 
-
 ## Built with
 
 - Semantic HTML5 markup
