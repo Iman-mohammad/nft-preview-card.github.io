@@ -11,7 +11,6 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 - [Useful resources](#useful-resources)
 - [Author](#author)
 
-
 ## Overview
 This project (NFT preview card component), designed to make users able to View the optimal layout depending on their device's screen size
 
