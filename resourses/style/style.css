@@ -8,6 +8,8 @@
 body{
     max-width: 1440px;
     min-width: 375px;
+    max-height: 1200px;
+    min-height: 200px;
     font-family: 'Outfit', sans-serif;
     font-size: 15px;
     background-color:hsl(217, 54%, 11%);
