@@ -6,6 +6,8 @@
 }
 
 body{
+    max-width: 1440px;
+    min-width: 375px;
     font-family: 'Outfit', sans-serif;
     font-size: 15px;
     background-color:hsl(217, 54%, 11%);
@@ -60,8 +62,8 @@ figcaption{
 
 /*main style*/
 main{
-    width: 360px;
-    height: 560px;
+    max-width: 360px;
+    max-height: 560px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -71,6 +73,13 @@ main{
     padding:1.4rem  1.7rem 1rem;
     box-shadow: 0 4px 8px 5px hsl(214, 57%, 5%), 0 6px 20px 0 hsl(214, 57%, 5%);
     margin: 5% 0;
+}
+
+@media screen and (max-width: 390px) {
+    main{
+        max-width: 300px;
+        padding:.9rem  1.2rem .5rem;
+    }
 }
 
 /*main figure style*/
