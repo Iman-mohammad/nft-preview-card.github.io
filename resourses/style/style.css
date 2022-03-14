@@ -1,0 +1,147 @@
+/*universal style*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    background-color:hsl(217, 54%, 11%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+
+img{
+    margin-right: 3.5%;
+}
+
+figure{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin: 2.5% 0;  
+}
+
+h1{
+    margin: 0 0 3%  0  ;
+}
+
+p{
+    font-size: 1rem;
+    margin: 3% 0;
+    color: hsl(215, 51%, 70%);
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+figcaption{
+    letter-spacing: .5px;
+}
+.light-green{
+    color: hsl(178, 100%, 50%);
+}
+
+.gray{
+    color: hsl(215, 51%, 70%);
+}
+
+.hover-green:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+
+/*main style*/
+main{
+    width: 360px;
+    height: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1rem;
+    padding:1.4rem  1.7rem 1rem;
+    box-shadow: 0 4px 8px 5px hsl(214, 57%, 5%), 0 6px 20px 0 hsl(214, 57%, 5%);
+    margin: 5% 0;
+}
+
+/*main figure style*/
+.main-figure{
+    height: 58%;
+    width: 100%;
+    margin-bottom: 7%;
+    border-radius:.3rem;
+    position: relative;
+}
+
+/*main img in main figure style*/
+#main-img {
+    height: 100%;
+    width: 100%;
+    border-radius:.3rem;
+    margin: 0;
+}
+
+.main-figure:hover #main-img{
+  opacity: .5;
+  cursor: pointer;
+}
+
+.eye-icon{
+    display: none;
+    width: 100px;
+    height: 100px; 
+    position: absolute;
+    left: 33.5%;
+}
+
+.main-figure:hover .eye-icon{
+    display: block;
+    cursor: pointer;
+}
+
+/*section style*/
+section{
+    height: 45%;
+    border-radius: 1rem;
+}
+
+/*detailes div style*/
+.detailes{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+a.hover-green{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+
+footer{
+    margin: 0 0 3% 0;
+    text-align: center;
+ }
+ 
+footer a{
+    color: hsl(224, 73%, 71%);
+    text-decoration: none;
+}
+ 
+footer a:hover{
+    font-weight: bold;
+}
+
+
+ 
+

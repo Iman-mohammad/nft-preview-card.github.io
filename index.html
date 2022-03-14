@@ -1,33 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+      <!--link with favicon-->
+      <link rel="icon" type="image/png" sizes="32x32" href="./resourses/media/images/favicon-32x32.png">
+      <!--link with css-->
+      <link href="./resourses/style/style.css" rel="stylesheet" type="text/css">
+      <!--link font preconnect 300 , 400 , 600-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+      <title>NFT preview card component</title>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | NFT preview card component</title>
+    </head>
+    <body>
+        <main>
+          <figure class="main-figure" style="background-color: hsl(178, 100%, 50%)">
+            <img src="./resourses/media/images/image-equilibrium.jpg" alt="equilibrium" id="main-img">
+            <img src="./resourses/media/images/icon-view.svg " class="eye-icon" alt="icon-view" >
+          </figure>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Equilibrium #3429
-
-  Our Equilibrium collection promotes balance and calm.
-
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+          <section>
+            <h1><a href="https://github.com/Iman-mohammad" class="hover-green" target="_blank">Equilibrium #3429</a></h1>
+            <p> Our Equilibrium collection promotes balance and calm. </p>
+            <div class="detailes">
+              <figure>
+                <img src="./resourses/media/images/icon-ethereum.svg">
+                <figcaption class="light-green">0.041ETH</figcaption>
+              </figure>
+              <figure style=" justify-content: flex-end;">
+                <img src="./resourses/media/images/icon-clock.svg">
+                <figcaption class="gray">3 days left</figcaption>
+              </figure>
+            </div>
+            <div style="border-top:2px solid hsl(215, 32%, 27%);"></div>
+            <figure style="width: 100%;     margin: 4% 0 1% 0;  " >
+              <img src="./resourses/media/images/image-avatar.png" style="margin-right: 5%; width: 35px; height: 35px; border-radius: 100%; border: 1px solid white;" >
+              <figcaption class="gray">Creation of <a href="https://github.com/Iman-mohammad" class="hover-green">Jules Wyvern</a></figcaption>
+            </figure>
+          </section>
+      </main>
+      <footer style=" color: hsl(0, 0%, 100%);
+      font-size: 1.1rem;">
+           Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+     rel="noopener noreferrer">Frontend Mentor</a>.
+   Coded by <a href="https://github.com/Iman-mohammad" target="_blank" rel="noopener noreferrer">Iman Mohammad</a>.
+      </footer>
+    </body>
 </html>
