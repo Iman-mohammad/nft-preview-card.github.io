@@ -19,8 +19,8 @@ This project (NFT preview card component), designed to make users able to View t
 
 ## Links
 
-- [Project Solution](https://github.com/Iman-mohammad/nft-preview-card.github.io.git)
-- [Live Site](https://iman-mohammad.github.io/nft-preview-card.github.io/)
+- [NFT preview card component Solution](https://github.com/Iman-mohammad/nft-preview-card.github.io.git)
+- [NFT preview card component Live Site](https://iman-mohammad.github.io/nft-preview-card.github.io/)
 
 ## Built with
 
